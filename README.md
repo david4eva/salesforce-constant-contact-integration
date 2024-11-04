@@ -26,5 +26,3 @@ This Salesforce integration enables seamless data flow between Salesforce and Co
 
 ## ⌛️ Access Token Expiration
 * Tokens expire after 1,440 minutes (24 hours); refresh logic is included to keep the integration active. 
-* Uses Salesforce’s secure Named Credentials and OAuth 2.0 for safe API interactions.  
-* Contributions, issues, and feature requests are welcome! Feel free to check issues page if you would like to contribute.
