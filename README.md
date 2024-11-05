@@ -25,7 +25,7 @@ This Salesforce integration enables seamless data flow between Salesforce and Co
 13. Click the event name link under the **Event** field to return to the **Event** record. **Expected**: On the Event record, verify that both the **Event Contact List Name** and **Event Contact List Id** fields are populated with data returned from the Constant Contact API.
 
 ## ⚠️ Limitations
-* Refer to the [Constant Contact Rate Limits](https://developer.constantcontact.com/api_guide/rate_limits.html#:~:text=You%20can%20use%20your%20API,and%204%20requests%20per%20second.) documention for more information on the API limits.
+* Refer to the [Constant Contact Rate Limits](https://developer.constantcontact.com/api_guide/rate_limits.html#:~:text=You%20can%20use%20your%20API,and%204%20requests%20per%20second.) for more information on the Constant Contact API limits.
 
 ## ⌛️ Access Token Expiration
 * Tokens expire after 1,440 minutes (24 hours); refresh logic is included to keep the integration active.
