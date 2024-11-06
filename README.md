@@ -24,6 +24,9 @@ This Salesforce integration enables seamless data flow between Salesforce and Co
 12. Under the **View Record** column, click **View** to open the **Event Registration** record. **Expected**: Confirm that the **Contact Id – Constant Contact** field contains the contact ID returned from the Constant Contact API.
 13. Click the event name link under the **Event** field to return to the **Event** record. **Expected**: On the Event record, verify that both the **Event Contact List Name** and **Event Contact List Id** fields are populated with data returned from the Constant Contact API.
 
+## ⚠️ Limitations
+* Refer to the [Constant Contact Rate Limits](https://developer.constantcontact.com/api_guide/rate_limits.html#:~:text=You%20can%20use%20your%20API,and%204%20requests%20per%20second.) for more information on the Constant Contact API limits.
+
 ## ⌛️ Access Token Expiration
 * Tokens expire after 1,440 minutes (24 hours); refresh logic is included to keep the integration active.
 
@@ -31,7 +34,7 @@ This Salesforce integration enables seamless data flow between Salesforce and Co
 This project was developed using various documentation resources that provide essential guidance on setup, functionality, and best practices. Below are some key references:
 
 - **Official Salesforce Documentation**: Comprehensive guide on Salesforce APIs, development best practices, and integration techniques.  
-  [Salesforce Future Method](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_invoking_future_methods.htm)
+  [Salesforce Future Method](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_invoking_future_methods.htm)  
   [Testing HTTP Callouts](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_classes_restful_http_testing.htm)
 
 - **Constant Contact API Documentation**: Detailed information on API endpoints and authentication for seamless integration.  
