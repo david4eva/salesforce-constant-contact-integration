@@ -13,7 +13,7 @@ This Salesforce integration enables seamless data flow between Salesforce and Co
   
 ### **Instructions**
 1. Log in to the live environment [here](https://integration-experts-dev-ed.my.site.com/s/).
-2. Take 30 seconds to read the **Data Purge Policy**.
+2. Take 30 seconds to read the **Data Purge Policy**.<img width="1728" alt="2024-11-03_16-25-45" src="https://github.com/user-attachments/assets/4af61c41-7ea2-4a5b-8ec1-e76724089d49">
 3. In the navigation bar, click the **Event** tab.
 4. Click the **New** button in the top-right corner.
 5. Enter a name for the event (e.g., **How to Start a Business**) and fill in the remaining required fields marked with a red asterisk (*). Then, click **Save**.
