@@ -9,20 +9,12 @@ This Salesforce integration enables seamless data flow between Salesforce and Co
 * **API Request Handling**: Implements secure OAuth 2.0 token handling, with dynamic refresh capability using Named Credentials.
 
 ## 📝 Using the Integration
-* 🎥 Watch the video demo [Salesforce Contact Integration](https://drive.google.com/file/d/1YxndPJ09ljkylPQUS9Y-aLOKvYS4Y1VF/view?usp=sharing) on how to use the integration  
   
 ### **Instructions**
-1. Log in to the live environment [here](https://integration-experts-dev-ed.my.site.com/s/).
-2. Take 30 seconds to read the **Data Purge Policy**.<img width="1728" alt="2024-11-03_16-25-45" src="https://github.com/user-attachments/assets/4af61c41-7ea2-4a5b-8ec1-e76724089d49">
-3. In the navigation bar, click the **Event** tab.
-4. Click the **New** button in the top-right corner.
-5. Enter a name for the event (e.g., **How to Start a Business**) and fill in the remaining required fields marked with a red asterisk (*). Then, click **Save**.
-6. Click the **Contacts** tab to open the contacts list view. Note the full name of one contact—you'll need it in **Step 8** below.
-7. Click the **Event** tab, then click the name of the event you created earlier. **Expected:** The **Event Contact List Name** and **Event Contact List Id** fields are blank.
-9. In the **Event** record, go to the **Related** tab and click **New**. Begin typing the first name of the contact you noted in **Step 6**; their record should appear in the **Registrants** field.
-11. Select the contact’s full name and click **Save**.
-12. Under the **View Record** column, click **View** to open the **Event Registration** record. **Expected**: Confirm that the **Contact Id – Constant Contact** field contains the contact ID returned from the Constant Contact API.
-13. Click the event name link under the **Event** field to return to the **Event** record. **Expected**: On the Event record, verify that both the **Event Contact List Name** and **Event Contact List Id** fields are populated with data returned from the Constant Contact API.
+1. Log in to the public Experience site [here](https://integration-experts-dev-ed.my.site.com/s/). No authentication required.
+2. Take 30 seconds to read the **Data Purge Policy** on the home page.
+3. Click the **Contacts** tab to open the contacts list view. <img width="1728" alt="2024-11-08_07-32-10 (1)" src="https://github.com/user-attachments/assets/2825ffc1-c73f-4598-9e43-a6e0ee9af3af">
+4. Click the **New** button in the top-right corner to create a new contact.<img width="1728" alt="2024-11-08_07-32-44" src="https://github.com/user-attachments/assets/62e5c4ae-c306-41ef-a06b-e9a250052b8f">
 
 ## ⚠️ Limitations
 * Refer to the [Constant Contact Rate Limits](https://developer.constantcontact.com/api_guide/rate_limits.html#:~:text=You%20can%20use%20your%20API,and%204%20requests%20per%20second.) for more information on the Constant Contact API limits.
