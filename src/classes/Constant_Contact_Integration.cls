@@ -15,7 +15,7 @@ public without sharing class Constant_Contact_Integration {
 
     /* Main method for calling class methods conditionally
     *  @param registrantIds: Array of Event_Registration__c record Ids
-    *  @param registrantIds: Array of Event__c record Ids */
+    *  @param eventIds: Array of Event__c record Ids */
     @Future(Callout=true)
     public static void calloutToConstantContact(String[]registrantIds, String[]eventIds) {
         ctctAcct = [
