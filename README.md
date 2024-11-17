@@ -1,6 +1,6 @@
 # Salesforce Constant Contact Integration
-## Summary:
-This Salesforce integration enables seamless data flow between Salesforce and Constant Contact, allowing for automated event and event registration management. With this solution, users can synchronize event lists and registrant information directly from Salesforce to Constant Contact, maintaining an active connection. Automated token management ensures uninterrupted data updates.
+## Summary
+This Salesforce integration enables seamless data flow between Salesforce and Constant Contact via RESTful API, allowing for automated event and event registration management. With this solution, users can synchronize event lists and registrant information directly from Salesforce to Constant Contact, maintaining an active connection. Automated token management ensures uninterrupted data updates.
 
 ## Features
 * **Automated Token Management**: Refreshes access tokens every 24 hours to ensure continuous connectivity.
@@ -9,30 +9,29 @@ This Salesforce integration enables seamless data flow between Salesforce and Co
 * **API Request Handling**: Implements secure OAuth 2.0 token handling, with dynamic refresh capability using Named Credentials.
 
 ## Using the Integration
-* Watch the video demo [Salesforce Contact Integration](https://drive.google.com/file/d/1YxndPJ09ljkylPQUS9Y-aLOKvYS4Y1VF/view?usp=sharing) on how to use the integration  
   
 ### **Instructions**
-```Java
-1. Log in to the live environment [here](https://integration-experts-dev-ed.my.site.com/s/).
-2. Take 30 seconds to read the **Data Purge Policy**.
-3. In the navigation bar, click the **Event** tab.
-4. Click the **New** button in the top-right corner.
-5. Enter a name for the event (e.g., **How to Start a Business**) and fill in the remaining required fields marked with a red asterisk (*). Then, click **Save**.
-6. Click the **Contacts** tab to open the contacts list view. Note the full name of one contact—you'll need it in **Step 8** below.
-7. Click the **Event** tab, then click the name of the event you created earlier. **Expected:** The **Event Contact List Name** and **Event Contact List Id** fields are blank.
-9. In the **Event** record, go to the **Related** tab and click **New**. Begin typing the first name of the contact you noted in **Step 6**; their record should appear in the **Registrants** field.
-11. Select the contact’s full name and click **Save**.
-12. Under the **View Record** column, click **View** to open the **Event Registration** record. **Expected**: Confirm that the **Contact Id – Constant Contact** field contains the contact ID returned from the Constant Contact API.
-13. Click the event name link under the **Event** field to return to the **Event** record. **Expected**: On the Event record, verify that both the **Event Contact List Name** and **Event Contact List Id** fields are populated with data returned from the Constant Contact API.
-```
+- Log in to the public Experience site [here](https://integration-experts-dev-ed.my.site.com/s/). No authentication required.  
+- Take 30 seconds to read the **Data Purge Policy** on the home page.
+1. Click the **Contact** tab to open the contacts list view. <img width="1728" alt="2024-11-17_14-09-58 copy" src="https://github.com/user-attachments/assets/865c496b-d3c0-4de2-9387-d1cd741e19ce">
+2. Click the **New** button in the top-right corner to create a new contact.<img width="1728" alt="2024-11-08_07-32-44" src="https://github.com/user-attachments/assets/62e5c4ae-c306-41ef-a06b-e9a250052b8f">
+3. Fill out the required fields and then click **Save**.<img width="1728" alt="2024-11-08_07-37-11" src="https://github.com/user-attachments/assets/bb024fb1-2a42-46ba-a5ed-e1eca3a65d0c">
+4. In the navigation bar, click the **Event** tab.<img width="1728" alt="2024-11-08_07-45-58 (1)" src="https://github.com/user-attachments/assets/e21f0433-3650-4345-a524-6d2fe5519c0f">
+5. Click the **New** button in the top-right corner to create a new event.<img width="1728" alt="2024-11-08_07-15-38 (1)" src="https://github.com/user-attachments/assets/2b9b8de2-7763-4ca7-bf44-e508962f3efb">
+6. Enter a name for the event (e.g., **How to Start a Business**) and fill in the remaining required fields marked with a red asterisk (*). Then, click **Save**.<img width="1728" alt="2024-11-08_07-16-51 (1)" src="https://github.com/user-attachments/assets/dcc7598e-a98f-41df-bb5e-7a2336f6c9cd">
+7. Click the **Related** tab. <img width="1728" alt="2024-11-17_14-14-32" src="https://github.com/user-attachments/assets/83a78621-2ede-4e0c-885e-8bb167ea470b">
+8. Click the **New** button to create a new event registration record.<img width="1728" alt="2024-11-17_14-21-48" src="https://github.com/user-attachments/assets/c0d5e5f2-4ab0-4af2-b3c2-cf7e8a78690c">
+9. Start typing the name of the contact you created in step 1, select the contact, then click **Save** to associate the event registration record to the event.<img width="1728" alt="2024-11-17_14-29-24" src="https://github.com/user-attachments/assets/1b2e4cd4-7ca9-472c-ab00-f52e6428d581">
+10. Navigate to the newly created event record to verify that the **Event Contact List Name** and **Event Contact List Id** fields have been populated with the event list details returned from the integration response. This confirms that the list was successfully created in Constant Contact.<img width="1728" alt="2024-11-17_14-16-20" src="https://github.com/user-attachments/assets/949d3fb1-5917-4762-951b-7de64e7b45c9">
+11. Navigate to the newly created event registration record to verify that the **Contact Id – Constant Contact** field has been populated with the registrant Id returned from the integration response. This confirms that the registrant was successfully created and added to the event list in Constant Contact.<img width="1728" alt="2024-11-17_14-17-06" src="https://github.com/user-attachments/assets/52fd6ea1-38fb-418f-9636-493a512961ed">
 
-## ⚠️ Limitations
+## Limitations
 * Refer to the [Constant Contact Rate Limits](https://developer.constantcontact.com/api_guide/rate_limits.html#:~:text=You%20can%20use%20your%20API,and%204%20requests%20per%20second.) for more information on the Constant Contact API limits.
 
-## ⌛️ Access Token Expiration
+## Access Token Expiration
 * Tokens expire after 1,440 minutes (24 hours); refresh logic is included to keep the integration active.
 
-## 📚 Documentation
+## Documentation
 This project was developed using various documentation resources that provide essential guidance on setup, functionality, and best practices. Below are some key references:
 
 - **Official Salesforce Documentation**: Comprehensive guide on Salesforce APIs, development best practices, and integration techniques.  
