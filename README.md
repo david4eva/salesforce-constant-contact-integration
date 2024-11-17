@@ -1,14 +1,14 @@
-# 📧 Salesforce Constant Contact Integration
-## 📊✨ Summary:
+# Salesforce Constant Contact Integration
+## Summary:
 This Salesforce integration enables seamless data flow between Salesforce and Constant Contact, allowing for automated event and event registration management. With this solution, users can synchronize event lists and registrant information directly from Salesforce to Constant Contact, maintaining an active connection. Automated token management ensures uninterrupted data updates.
 
-## 🛠️ Features
+## Features
 * **Automated Token Management**: Refreshes access tokens every 24 hours to ensure continuous connectivity.
 * **Event List Synchronization**: Automatically creates Constant Contact event lists based on Salesforce event data.
 * **Registrant Management**: Adds and updates event registrants as contacts within Constant Contact, directly from Salesforce.
 * **API Request Handling**: Implements secure OAuth 2.0 token handling, with dynamic refresh capability using Named Credentials.
 
-## 📝 Using the Integration
+## Using the Integration
   
 ### **Instructions**
 1. Log in to the public Experience site [here](https://integration-experts-dev-ed.my.site.com/s/). No authentication required.
@@ -21,13 +21,13 @@ This Salesforce integration enables seamless data flow between Salesforce and Co
 5. Click the **New** button in the top-right corner to create a new event.<img width="1728" alt="2024-11-08_07-15-38 (1)" src="https://github.com/user-attachments/assets/2b9b8de2-7763-4ca7-bf44-e508962f3efb">
 6. Enter a name for the event (e.g., **How to Start a Business**) and fill in the remaining required fields marked with a red asterisk (*). Then, click **Save**.<img width="1728" alt="2024-11-08_07-16-51 (1)" src="https://github.com/user-attachments/assets/dcc7598e-a98f-41df-bb5e-7a2336f6c9cd">
 
-## ⚠️ Limitations
+## Limitations
 * Refer to the [Constant Contact Rate Limits](https://developer.constantcontact.com/api_guide/rate_limits.html#:~:text=You%20can%20use%20your%20API,and%204%20requests%20per%20second.) for more information on the Constant Contact API limits.
 
-## ⌛️ Access Token Expiration
+## Access Token Expiration
 * Tokens expire after 1,440 minutes (24 hours); refresh logic is included to keep the integration active.
 
-## 📚 Documentation
+## Documentation
 This project was developed using various documentation resources that provide essential guidance on setup, functionality, and best practices. Below are some key references:
 
 - **Official Salesforce Documentation**: Comprehensive guide on Salesforce APIs, development best practices, and integration techniques.  
