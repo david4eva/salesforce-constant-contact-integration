@@ -1,6 +1,6 @@
 # Salesforce Constant Contact Integration
 ## Summary
-This Salesforce integration enables seamless data flow between Salesforce and Constant Contact, allowing for automated event and event registration management. With this solution, users can synchronize event lists and registrant information directly from Salesforce to Constant Contact, maintaining an active connection. Automated token management ensures uninterrupted data updates.
+This Salesforce integration enables seamless data flow between Salesforce and Constant Contact via RESTful API, allowing for automated event and event registration management. With this solution, users can synchronize event lists and registrant information directly from Salesforce to Constant Contact, maintaining an active connection. Automated token management ensures uninterrupted data updates.
 
 ## Features
 * **Automated Token Management**: Refreshes access tokens every 24 hours to ensure continuous connectivity.
