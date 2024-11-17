@@ -13,7 +13,7 @@ This Salesforce integration enables seamless data flow between Salesforce and Co
 ### **Instructions**
 1. Log in to the public Experience site [here](https://integration-experts-dev-ed.my.site.com/s/). No authentication required.
 2. Take 30 seconds to read the **Data Purge Policy** on the home page.
-3. Click the **Contact** tab to open the contacts list view. <img width="1728" alt="2024-11-08_07-32-10 (1)" src="https://github.com/user-attachments/assets/2825ffc1-c73f-4598-9e43-a6e0ee9af3af">
+3. Click the **Contact** tab to open the contacts list view. <img width="1728" alt="2024-11-17_14-09-58 copy" src="https://github.com/user-attachments/assets/865c496b-d3c0-4de2-9387-d1cd741e19ce">
 4. Click the **New** button in the top-right corner to create a new contact.<img width="1728" alt="2024-11-08_07-32-44" src="https://github.com/user-attachments/assets/62e5c4ae-c306-41ef-a06b-e9a250052b8f">
 5. Fill out the required fields and then click **Save**.<img width="1728" alt="2024-11-08_07-37-11" src="https://github.com/user-attachments/assets/bb024fb1-2a42-46ba-a5ed-e1eca3a65d0c">
 6. In the navigation bar, click the **Event** tab.<img width="1728" alt="2024-11-08_07-45-58 (1)" src="https://github.com/user-attachments/assets/e21f0433-3650-4345-a524-6d2fe5519c0f">
