@@ -130,7 +130,7 @@ public without sharing class Constant_Contact_Integration {
                 Http http = new Http();
 
                 // Create request
-                req.setEndpoint('https://api.cc.email/v3' + '/contact_lists');
+                req.setEndpoint('callout:Constant_Contact_API' + '/contact_lists');
                 req.setMethod('POST');
                 req.setHeader('Authorization', 'Bearer ' + accessToken);
                 req.setHeader('Content-Type', 'application/json');
@@ -196,7 +196,7 @@ public without sharing class Constant_Contact_Integration {
                 Http http = new Http();
 
                 // Create request
-                req.setEndpoint('https://api.cc.email/v3' + '/contacts/sign_up_form');
+                req.setEndpoint('callout:Constant_Contact_API' + '/contacts/sign_up_form');
                 req.setMethod('POST');
                 req.setHeader('Authorization', 'Bearer ' + accessToken);
                 req.setHeader('Content-Type', 'application/json');
