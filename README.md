@@ -8,18 +8,16 @@ The current API Key and Access Token are no longer valid, and API calls will fai
 
 The integration logic—including token management, API callouts, and record synchronization—has been thoroughly tested and functions as expected. Only the credentials have expired.
 
-🔧 How to Use This Integration
-
+## 🔧 How to Use This Integration
 To get this integration working again with your own Constant Contact account:
-	1.	Create a Constant Contact Developer Account
-👉 Visit developer.constantcontact.com and sign up.
-	2.	Register an App to Get Credentials
-	•	Generate a new API Key
-	•	Complete the OAuth 2.0 flow to obtain a valid Access Token
-	3.	Update Salesforce Configuration
-	•	Replace the old API Key and Token in your Named Credential
-	•	Update any relevant Custom Metadata Types or Custom Settings as needed
-	4.	Confirm Token Refresh Logic
+	1. Create a Constant Contact Developer Account 👉 Visit developer.constantcontact.com and sign up.
+	2. Register an App to Get Credentials
+	3. Generate a new API Key
+	4. Complete the OAuth 2.0 flow to obtain a valid Access Token
+	5. Update Salesforce Configuration
+	6. Replace the old API Key and Token in your Named Credential
+	7. Update any relevant Custom Metadata Types or Custom Settings as needed
+	8. Confirm Token Refresh Logic
 
 ## Summary
 This Salesforce integration enables seamless data flow between Salesforce and Constant Contact via RESTful API, allowing for automated event and event registration management. With this solution, users can synchronize event lists and registrant information directly from Salesforce to Constant Contact, maintaining an active connection. Automated token management ensures uninterrupted data updates.
