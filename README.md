@@ -12,12 +12,12 @@ The integration logic—including token management, API callouts, and record syn
 To get this integration working again with your own Constant Contact account:
 - Create a Constant Contact Developer Account 👉 Visit developer.constantcontact.com and sign up.
 - Register an App to Get Credentials
-	3. Generate a new API Key
-	4. Complete the OAuth 2.0 flow to obtain a valid Access Token
-	5. Update Salesforce Configuration
-	6. Replace the old API Key and Token in your Named Credential
-	7. Update any relevant Custom Metadata Types or Custom Settings as needed
-	8. Confirm Token Refresh Logic
+- Generate a new API Key
+- Complete the OAuth 2.0 flow to obtain a valid Access Token
+- Update Salesforce Configuration
+- Replace the old API Key and Token in your Named Credential
+- Update any relevant Custom Metadata Types or Custom Settings as needed
+- Confirm Token Refresh Logic
 
 ## Summary
 This Salesforce integration enables seamless data flow between Salesforce and Constant Contact via RESTful API, allowing for automated event and event registration management. With this solution, users can synchronize event lists and registrant information directly from Salesforce to Constant Contact, maintaining an active connection. Automated token management ensures uninterrupted data updates.
