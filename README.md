@@ -10,7 +10,7 @@ The integration logic—including token management, API callouts, and record syn
 
 ## 🔧 How to Use This Integration
 To get this integration working again with your own Constant Contact account:
-- Create a Constant Contact Developer Account 👉 Visit [developer.constantcontact.com](developer.constantcontact.com) and sign up.
+- Create a Constant Contact Developer Account 👉 Visit [developer.constantcontact.com](https://developer.constantcontact.com/) and sign up.
 - Register an App to Get Credentials
 - Generate a new API Key
 - Complete the OAuth 2.0 flow to obtain a valid Access Token
